@@ -12,6 +12,6 @@ namespace GeekQuiz.Data
     {
         int? Insert(T entity);
         void Update(T entity);
-        void Delete<t>(int id);
+        void Delete(T entity);
     }
 }

@@ -10,32 +10,32 @@ using System.Configuration;
 
 namespace GeekQuiz.Data
 {
-    public abstract class Repository<T> : ReadOnlyRepository<T>,IRepository<T>
+    public abstract class Repository<T> :ReadOnlyRepository<T>, IRepository<T>
     {
 
-        public int? Insert(T entity)
+        public virtual int? Insert(T entity)
         {
             return base.Connection.Insert(entity);
         }
 
-        public void Update(T entity)
+        public virtual void Update(T entity)
         {
             base.Connection.Update(entity);
         }
 
-        public void Delete<t>(int id)
+        public virtual void Delete(T entity)
         {
-            base.Connection.Delete(id);
+            base.Connection.Delete(entity);
         }
 
-        public new T GetByID(int id)
+        public override T GetByID(int id)
         {
-            return base.GetByID(id);
+            return Connection.Get<T>(id);
         }
 
-        public new IEnumerable<T> GetAll()
+        public override IEnumerable<T> GetAll()
         {
-            return base.GetAll();
+            return Connection.GetList<T>();
         }
     }
 }

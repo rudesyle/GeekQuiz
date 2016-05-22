@@ -7,17 +7,15 @@ using Dapper;
 
 namespace GeekQuiz.Entities
 {
-    [Table("UserAnswers")]
+    [Table("UsersAnswers")]
     public class UserAnswerEntity
     {
         [Key]
         public int Id { get; set; }
 
-        public string UserId { get; set; }
+        public int UserId { get; set; }
 
         public int AnswerId { get; set; }
-
-        public int QuestionId { get; set; }
 
     }
 }
