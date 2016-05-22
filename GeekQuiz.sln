@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz", "GeekQuiz\GeekQuiz.csproj", "{964B62CD-DFF6-4A20-9AE8-306C8021D895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz.Data", "GeekQuiz.Data\GeekQuiz.Data.csproj", "{BAE63D3B-391E-4D0A-903F-697C142212CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz.Entities", "GeekQuiz.Entities\GeekQuiz.Entities.csproj", "{401A0723-D061-482B-8BFF-03B5F5F6969D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz.Data.Test.Integration", "GeekQuiz.Data.Test.Integration\GeekQuiz.Data.Test.Integration.csproj", "{9FF4200B-2216-45D4-8A49-E32ECAD4D0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz.Business", "GeekQuiz.Business\GeekQuiz.Business.csproj", "{C4A9D677-58BA-4CBA-A764-D895BA37209E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2C443F8D-6AA6-4185-AAA2-DD7882FE4B5A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{964B62CD-DFF6-4A20-9AE8-306C8021D895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964B62CD-DFF6-4A20-9AE8-306C8021D895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964B62CD-DFF6-4A20-9AE8-306C8021D895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964B62CD-DFF6-4A20-9AE8-306C8021D895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE63D3B-391E-4D0A-903F-697C142212CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE63D3B-391E-4D0A-903F-697C142212CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE63D3B-391E-4D0A-903F-697C142212CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE63D3B-391E-4D0A-903F-697C142212CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401A0723-D061-482B-8BFF-03B5F5F6969D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401A0723-D061-482B-8BFF-03B5F5F6969D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401A0723-D061-482B-8BFF-03B5F5F6969D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401A0723-D061-482B-8BFF-03B5F5F6969D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF4200B-2216-45D4-8A49-E32ECAD4D0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF4200B-2216-45D4-8A49-E32ECAD4D0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF4200B-2216-45D4-8A49-E32ECAD4D0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF4200B-2216-45D4-8A49-E32ECAD4D0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A9D677-58BA-4CBA-A764-D895BA37209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A9D677-58BA-4CBA-A764-D895BA37209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A9D677-58BA-4CBA-A764-D895BA37209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A9D677-58BA-4CBA-A764-D895BA37209E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
